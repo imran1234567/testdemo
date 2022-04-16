@@ -1,0 +1,26 @@
+.header {
+    height: 100px;
+}
+
+.header-main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.nav-item {
+    padding: 0px 10px;
+}
+
+.login-btn {
+    padding-right: 15px;
+
+}
+
+.signup-btn {
+    padding: 14px 32px;
+    background-color: #0064fa;
+    border-radius: 30px;
+    color: white;
+}
