@@ -26,22 +26,22 @@ class Header extends Component {
                             <div>
                                 <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                                     <li className="nav-item">
-                                        <a className="nav-link active" aria-current="page" href="#">Pricing</a>
+                                        <a className="nav-link active" aria-current="page" href="/">Pricing</a>
                                     </li>
                                     <li className="nav-item">
-                                        <a className="nav-link active" aria-current="page" href="#">Markets</a>
+                                        <a className="nav-link active" aria-current="page" href="/">Markets</a>
                                     </li>
                                     <li className="nav-item">
-                                        <a className="nav-link active" aria-current="page" href="#">Platforms</a>
+                                        <a className="nav-link active" aria-current="page" href="/">Platforms</a>
                                     </li>
                                     <li className="nav-item">
-                                        <a className="nav-link active" aria-current="page" href="#">Analysis</a>
+                                        <a className="nav-link active" aria-current="page" href="/">Analysis</a>
                                     </li>
                                 </ul>
                             </div>
                             <div>
-                                <a href="#" className="login-btn">Login</a>
-                                <a href="#" className="signup-btn">Signup</a>
+                                <a href="/" className="login-btn">Login</a>
+                                <a href="/" className="signup-btn">Signup</a>
                             </div>
                         </section>
                         {/* <ul class="navbar-nav me-auto mb-2 mb-lg-0">
