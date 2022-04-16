@@ -48,5 +48,6 @@
 }
 
 .custom-caption {
-    top: 12rem;
+    top: 10rem;
+    align-items: center;
 }
