@@ -22,7 +22,7 @@ class Header extends Component {
                     </button>
                     <div className="collapse navbar-collapse" id="navbarTogglerDemo01">
                         <section className="header-main">
-                            <div><a className="navbar-brand" href="#">Hidden brand</a></div>
+                            <div><a className="navbar-brand" href="/">Hidden brand</a></div>
                             <div>
                                 <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                                     <li className="nav-item">
