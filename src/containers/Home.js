@@ -69,6 +69,118 @@ class Home extends Component {
                         </div>
                     </div>
                 </div>
+                <div className="container-fluid mid-container">
+                    <div className="table-element">
+                        <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+                            <li class="nav-item tabs-element" role="presentation">
+                                <button class="nav-link tab-button active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">Popular</button>
+                            </li>
+                            <li class="nav-item tabs-element" role="presentation">
+                                <button class="tab-button nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Recenly Added</button>
+                            </li>
+                            <li class="nav-item tabs-element" role="presentation">
+                                <button class="tab-button nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">FX</button>
+                            </li>
+                            <li class="nav-item tabs-element" role="presentation">
+                                <button class="tab-button nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Comodities</button>
+                            </li>
+                            <li class="nav-item tabs-element" role="presentation">
+                                <button class="tab-button nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Cryptos</button>
+                            </li>
+                            <li class="nav-item tabs-element" role="presentation">
+                                <button class="tab-button nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Indices</button>
+                            </li>
+                        </ul>
+                        <div class="tab-content" id="pills-tabContent">
+                            <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+                                <table class="table table-hover">
+                                    <thead>
+                                        <tr>
+                                            <th scope="col" className="header-tr">Instrument</th>
+                                            <th scope="col" className="header-tr">Bid</th>
+                                            <th scope="col" className="header-tr">Ask</th>
+                                            <th scope="col" className="header-tr">Spread</th>
+                                            <th scope="col" className="header-tr">Action</th>
+
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <th scope="row">1</th>
+                                            <td>Mark</td>
+                                            <td>Otto</td>
+                                            <td>@mdo</td>
+                                            <td>
+                                                <button className="trade-table-btn">Trade</button>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">2</th>
+                                            <td>Jacob</td>
+                                            <td>Thornton</td>
+                                            <td>@fat</td>
+                                            <td>
+                                                <button className="trade-table-btn">Trade</button>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">3</th>
+                                            <td colspan="2">Larry the Bird</td>
+                                            <td>@twitter</td>
+                                            <td>
+                                                <button className="trade-table-btn">Trade</button>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">3</th>
+                                            <td colspan="2">Larry the Bird</td>
+                                            <td>@twitter</td>
+                                            <td>
+                                                <button className="trade-table-btn">Trade</button>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">3</th>
+                                            <td colspan="2">Larry the Bird</td>
+                                            <td>@twitter</td>
+                                            <td>
+                                                <button className="trade-table-btn">Trade</button>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">3</th>
+                                            <td colspan="2">Larry the Bird</td>
+                                            <td>@twitter</td>
+                                            <td>
+                                                <button className="trade-table-btn">Trade</button>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">3</th>
+                                            <td colspan="2">Larry the Bird</td>
+                                            <td>@twitter</td>
+                                            <td>
+                                                <button className="trade-table-btn">Trade</button>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                            <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">This is some placeholder content the Contact tab's associated content. Clicking another tab will toggle the visibility of this one for the next. The tab JavaScript swaps classes to control the content visibility and styling. You can use it with tabs, pills, and any other .nav-powered navigation.</div>
+                            <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">This is some placeholder content the Contact tab's associated content. Clicking another tab will toggle the visibility of this one for the next. The tab JavaScript swaps classes to control the content visibility and styling. You can use it with tabs, pills, and any other .nav-powered navigation.</div>
+                        </div>
+                    </div>
+                    <div className="side-decription">
+                        <div>
+                            <p className="text-bold">WHY PEPPERSTONE</p>
+                            <h1 className="body-text">
+                                Discover opportunity on 1200+ instruments
+                            </h1>
+                            <p>Trade our extensive range of CFDs on FX, Commodities, Cryptocurrencies, Shares, ETFs and more. Low costs, fast execution and 24/7 support. It doesn't get much better than this. </p>
+                            <button className="view-btn">View our spreads</button>
+                        </div>
+                    </div>
+                </div>
             </div>
         );
     }
