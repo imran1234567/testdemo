@@ -22,7 +22,7 @@ class Home extends Component {
                                     <input type="text" placeholder="Email" class="form-control form-control-lg banner-input-text" />
                                     <div className="banner-button">
                                         <div className="banner-button-container">
-                                            <a className="baneer-button" target="_self">Trade now</a>
+                                            <a href="/" className="baneer-button" target="_self">Trade now</a>
                                         </div>
                                         <div>
                                             <a href="/" className="try-demo"> or Try a demo</a>
@@ -40,7 +40,7 @@ class Home extends Component {
                                     <input type="text" placeholder="Email" class="form-control form-control-lg banner-input-text" />
                                     <div className="banner-button">
                                         <div className="banner-button-container">
-                                            <a className="baneer-button" target="_self">Trade now</a>
+                                            <a href="/" className="baneer-button" target="_self">Trade now</a>
                                         </div>
                                         <div>
                                             <a href="/" className="try-demo"> or Try a demo</a>
@@ -58,7 +58,7 @@ class Home extends Component {
                                     <input type="text" placeholder="Email" class="form-control form-control-lg banner-input-text" />
                                     <div className="banner-button">
                                         <div className="banner-button-container">
-                                            <a className="baneer-button" target="_self">Trade now</a>
+                                            <a href="/" className="baneer-button" target="_self">Trade now</a>
                                         </div>
                                         <div>
                                             <a href="/" className="try-demo"> or Try a demo</a>
