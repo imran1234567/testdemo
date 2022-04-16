@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Akshar:wght@300&family=Titillium+Web:ital,wght@0,200;0,300;0,600;1,200;1,300;1,400;1,600&display=swap');
+
 .header {
     height: 100px;
 }
@@ -11,16 +13,40 @@
 
 .nav-item {
     padding: 0px 10px;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 600;
+    color: white;
+}
+
+.nav-item a {
+    color: white;
 }
 
 .login-btn {
     padding-right: 15px;
-
+    font-family: 'Titillium Web', sans-serif;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
 }
 
 .signup-btn {
     padding: 14px 32px;
     background-color: #0064fa;
     border-radius: 30px;
+    font-family: 'Titillium Web', sans-serif;
     color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.banner-text {
+    font-size: 100px;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 600;
+
+}
+
+.custom-caption {
+    top: 12rem;
 }
