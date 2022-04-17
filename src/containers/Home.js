@@ -182,7 +182,7 @@ class Home extends Component {
                     </div>
                 </div>
                 <div>
-                    <img src="https://ik.imagekit.io/xnqvm1iiw/pexels-alesia-kozik-6770610_IUFf3sNDk.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1650162439825" className="mid-banner" />
+                    <img src="https://ik.imagekit.io/xnqvm1iiw/pexels-alesia-kozik-6770610_IUFf3sNDk.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1650162439825" className="mid-banner" alt="mid"/>
                 </div>
                 <div className="list-item">
                     <p style={{ textAlign: 'center' }}>WHY PEPPERSTONE?</p>
