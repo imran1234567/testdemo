@@ -181,6 +181,47 @@ class Home extends Component {
                         </div>
                     </div>
                 </div>
+                <div>
+                    <img src="https://ik.imagekit.io/xnqvm1iiw/pexels-alesia-kozik-6770610_IUFf3sNDk.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1650162439825" className="mid-banner" />
+                </div>
+                <div className="list-item">
+                    <p style={{ textAlign: 'center' }}>WHY PEPPERSTONE?</p>
+                    <h2 style={{ textAlign: 'center', fontWeight: 600 }}>Tired of your current broker? We get it.</h2>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col card-item">
+                                <div className="card-text">
+                                    <h2>Tight spreads</h2>
+                                    <p>Enjoy spreads as low as 0.0 pips^ with deep liquidity and no requotes.</p>
+                                    <a href="/" className="learn-more">Learn more</a>
+                                </div>
+                            </div>
+                            <div class="col card-item">
+                                <div className="card-text">
+                                    <h2>Tight spreads</h2>
+                                    <p>Enjoy spreads as low as 0.0 pips^ with deep liquidity and no requotes.</p>
+                                    <a href="/" className="learn-more">Learn more</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row" style={{marginTop:'15px'}}>
+                            <div class="col card-item">
+                                <div className="card-text">
+                                    <h2>Tight spreads</h2>
+                                    <p>Enjoy spreads as low as 0.0 pips^ with deep liquidity and no requotes.</p>
+                                    <a href="/" className="learn-more">Learn more</a>
+                                </div>
+                            </div>
+                            <div class="col card-item">
+                                <div className="card-text">
+                                    <h2>Tight spreads</h2>
+                                    <p>Enjoy spreads as low as 0.0 pips^ with deep liquidity and no requotes.</p>
+                                    <a href="/" className="learn-more">Learn more</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         );
     }

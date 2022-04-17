@@ -131,3 +131,40 @@ th.header-tr {
     border-radius: 27px;
     margin-top: 30px;
 }
+
+.mid-banner{
+    width: 95%;
+    height: 400px;
+    margin-left: 30px;
+    margin-top: 50px;
+    border-radius: 15px;
+}
+
+.list-item{
+    margin-top: 50px;
+    font-family: 'Titillium Web', sans-serif !important;
+    margin-bottom: 50px;
+}
+
+.card-item{
+    width: 45%;
+    height: 280px;
+    background-color: #f2f4f6;
+    margin-left: 30px;
+    border-radius: 15px;
+}
+
+.card-text{
+    margin: 30px;
+}
+
+.card-text h2{
+    font-weight: bold;
+}
+
+.learn-more{
+    font-size: 21px;
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
